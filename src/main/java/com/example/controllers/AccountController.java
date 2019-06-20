@@ -10,6 +10,6 @@ public class AccountController {
 
     @GetMapping("/status/check")
     public String status() {
-        return "All good";
+        return "AccountController working";
     }
 }
